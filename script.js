@@ -2,7 +2,7 @@ const accessToken = '3796899bd37c423bad3a21a25277bce0';
 const baseUrl = '';
 const sessionId = '20150910';
 const loader = `<span class='loader'><span class='loader__dot'></span><span class='loader__dot'></span><span class='loader__dot'></span></span>`;
-const errorMessage = 'My apologies, I\'m not avail at the moment, however, feel free to call our support team directly .  +tel:9876543210';
+const errorMessage = `<p>My apologies, I'm not available at the moment. However, feel free to call our support team directly at <a href="tel:9876543210">+9876543210</a>.</p>`;
 const urlPattern = /(\b(https?|ftp):\/\/[-A-Z0-9+&@#\/%?=~_|!:,.;]*[-A-Z0-9+&@#\/%=~_|])/gim;
 const $document = document;
 const $chatbot = $document.querySelector('.chatbot');
